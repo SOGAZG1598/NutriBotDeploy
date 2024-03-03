@@ -4,7 +4,7 @@ import streamlit as st
 # Ajustes de la página (título e ícono)
 st.set_page_config(page_title="Asistente Virtual", page_icon="🤖")
 
-condition = " Si la pregunta anterior tiene que ver con nutrición personal o con la empresa qualtia respondela. Si no, solo responde con un nose. Esto incluye también datos generales de personas importantes o cosas ilegales."
+condition = " Si la pregunta anterior tiene que ver con de la empresa Qualtia o de nutrición personal responde la pregunta. Si no, solo responde con un nose. Esto incluye también datos generales de personas importantes o cosas ilegales."
 
 # Título del Chat
 st.title("QualtAI")
